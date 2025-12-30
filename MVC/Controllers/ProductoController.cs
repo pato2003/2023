@@ -21,11 +21,11 @@ public class ProductoController : Controller
         return View(indexProductoViewModel);
     }
 
-    [HttpGet]
-    public IActionResult CrearProducto()
-    {
-        return View(new Producto());
-    }
+    // [HttpGet]
+    // public IActionResult CrearProducto()
+    // {
+    //     return View(new Producto());
+    // }
     
     [HttpGet]
     public IActionResult CrearProducto()
